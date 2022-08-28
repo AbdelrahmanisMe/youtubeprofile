@@ -425,4 +425,114 @@ body
     .color i{
     font-size: 1.2rem;
     } 
+    @media (max-width:600px) {
+    .header
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color:black;
+    height: 5rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius:0.3rem; 
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 100;
+}
+.left img
+{
+    align-items: center;
+    height: 3.5rem;
+}
+
+.center span 
+{
+    color: aliceblue;
+    font-size:2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow:4px 2px 1px purple ;
+}
+.center .mic
+{
+    display: none;
+}
+.right img
+{
+    width:2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+
+.background img
+{
+    height: 210px;
+    width: 100%;
+}
+.midbox img
+{
+    height:5rem;
+    width: 5rem;
+    border-radius:50%;
+    margin:1.3rem 0px 0px 1rem;
+}
+.midbox span
+{
+    font-size:1.5rem;
+    margin: 4rem 0px 0px -3rem;
+    color:black;
+}
+.menu
+{   
+    display: flex;
+    justify-content: space-around;
+    height: 3.4rem;
+    width: 100%;
+    cursor: pointer;
+    background-color: white;
+    margin-top: -3.2rem;
+    padding: 0.7rem  0px 0.2rem 3px;
+}
+
+.items-menu
+{
+    
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+.menu .right
+{
+    display: none;
+}
+
+.boxvideos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;   
+}
+.video{
+    height: 100%;
+    width:  65%;
+    margin-bottom: -3rem;
+}
+.thumbnail img {
+    aspect-ratio: 16/9;
+    height:100% ;
+    width: 100%; 
+}    
+.videocreator{
+    height: 16%;
+    width: 100%;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+.creator  img{
+    margin-top: -3rem;
+    cursor:pointer;
+}
 }
