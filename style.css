@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 ::selection{
     background-color: white;
@@ -10,6 +11,7 @@
 body
 {
     display: flex;
+    scroll-behavior: smooth;
     font-size:10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-y: auto;
