@@ -4,6 +4,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+::selection{
+    background-color: white;
+}
 body
 {
     display: flex;
